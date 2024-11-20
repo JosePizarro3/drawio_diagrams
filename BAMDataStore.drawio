@@ -8,13 +8,18 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="bhPpKJ4T6593bmuaz66l-5" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;DataStore tools and hrefs to the openBIS instances&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Klavika;align=right;verticalAlign=bottom;strokeWidth=2;strokeColor=#002832;fillColor=#ccd8df;fillStyle=auto;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry y="340" width="1080" height="450" as="geometry" />
+          <mxGeometry y="340" width="1080" height="500" as="geometry" />
         </mxCell>
         <mxCell id="bhPpKJ4T6593bmuaz66l-0" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;openBIS instances and plugins&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Klavika;align=right;verticalAlign=bottom;strokeWidth=2;strokeColor=#002832;fillColor=#ccd8df;fillStyle=auto;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry y="-10" width="1080" height="280" as="geometry" />
         </mxCell>
         <mxCell id="n2oDj2GFMUZe_3VKMbaY-56" value="&lt;font face=&quot;Klavika&quot;&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;submodule&lt;/span&gt;&lt;/font&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#002832;strokeWidth=4;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="n2oDj2GFMUZe_3VKMbaY-40" target="n2oDj2GFMUZe_3VKMbaY-22" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="695" y="518" />
+              <mxPoint x="550" y="518" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="n2oDj2GFMUZe_3VKMbaY-52" value="&lt;font style=&quot;font-size: 16px;&quot; face=&quot;Klavika&quot;&gt;submodule&lt;/font&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#002832;strokeWidth=4;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="n2oDj2GFMUZe_3VKMbaY-29" target="n2oDj2GFMUZe_3VKMbaY-22" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -85,7 +90,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="n2oDj2GFMUZe_3VKMbaY-38" value="MasterdataVisualizer" style="swimlane;fontStyle=2;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fontFamily=Klavika;fillColor=#D2001E;strokeColor=#002832;strokeWidth=2;fontColor=#FFFFFF;fontSize=22;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="373.5" y="560" width="260" height="160" as="geometry" />
+          <mxGeometry x="239" y="555" width="260" height="160" as="geometry" />
         </mxCell>
         <mxCell id="n2oDj2GFMUZe_3VKMbaY-39" value="Frontend visualization (probably based on D3) of the masterdata definitions and their relationships" style="text;strokeColor=#002832;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontFamily=Klavika;fontSize=18;strokeWidth=2;" parent="n2oDj2GFMUZe_3VKMbaY-38" vertex="1">
           <mxGeometry y="50" width="260" height="110" as="geometry" />
@@ -93,16 +98,16 @@
         <mxCell id="bhPpKJ4T6593bmuaz66l-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=4;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="n2oDj2GFMUZe_3VKMbaY-40" target="n2oDj2GFMUZe_3VKMbaY-29">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="951" y="750" />
-              <mxPoint x="105" y="750" />
+              <mxPoint x="690" y="800" />
+              <mxPoint x="105" y="800" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="n2oDj2GFMUZe_3VKMbaY-40" value="MasterdataAnalyzer" style="swimlane;fontStyle=2;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fontFamily=Klavika;fillColor=#D2001E;strokeColor=#002832;strokeWidth=2;fontColor=#FFFFFF;fontSize=22;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="840" y="345" width="221.5" height="210" as="geometry" />
+          <mxGeometry x="569" y="555" width="251" height="210" as="geometry" />
         </mxCell>
         <mxCell id="n2oDj2GFMUZe_3VKMbaY-41" value="(Now called Masterdata_Checker)&lt;div&gt;Back- and Frontend tool to analyze if the masterdata definitions of an xlsx file already exist in the DataStore instance&lt;/div&gt;" style="text;strokeColor=#002832;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontFamily=Klavika;fontSize=18;strokeWidth=2;" parent="n2oDj2GFMUZe_3VKMbaY-40" vertex="1">
-          <mxGeometry y="50" width="221.5" height="160" as="geometry" />
+          <mxGeometry y="50" width="251" height="160" as="geometry" />
         </mxCell>
         <mxCell id="n2oDj2GFMUZe_3VKMbaY-29" value="OpenbisSchema" style="swimlane;fontStyle=2;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fontFamily=Klavika;fillColor=#D2001E;strokeColor=#002832;strokeWidth=2;fontColor=#FFFFFF;fontSize=22;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="10" y="365" width="190" height="170" as="geometry">
@@ -111,6 +116,15 @@
         </mxCell>
         <mxCell id="n2oDj2GFMUZe_3VKMbaY-30" value="Python tool to manage the DataStore masterdata" style="text;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontFamily=Klavika;fontSize=18;fillColor=default;strokeColor=#002832;strokeWidth=2;" parent="n2oDj2GFMUZe_3VKMbaY-29" vertex="1">
           <mxGeometry y="50" width="190" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="bhPpKJ4T6593bmuaz66l-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=4;endArrow=diamond;endFill=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="bhPpKJ4T6593bmuaz66l-11" target="n2oDj2GFMUZe_3VKMbaY-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bhPpKJ4T6593bmuaz66l-11" value="Wiki" style="swimlane;fontStyle=2;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fontFamily=Klavika;fillColor=#D2001E;strokeColor=#002832;strokeWidth=2;fontColor=#FFFFFF;fontSize=22;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="840" y="390" width="130" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="bhPpKJ4T6593bmuaz66l-12" value="Documentation page" style="text;strokeColor=#002832;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontFamily=Klavika;fontSize=18;strokeWidth=2;" vertex="1" parent="bhPpKJ4T6593bmuaz66l-11">
+          <mxGeometry y="50" width="130" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
